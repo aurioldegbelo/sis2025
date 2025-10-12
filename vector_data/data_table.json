@@ -1,0 +1,23 @@
+[{
+ "title": "list of states",
+ "header": ["id", "type", "name", "population", "area",  "state_capital", "geometry"],
+ "data": [
+    ["s01", "State", "Nordrhein-Westfalen", 18139116, 34110.26, "Düsseldorf", "nrw_geom" ],
+    ["s02", "State", "Hessen", 6391360, 21114.94, "Wiesbaden", "hessen_geom" ],
+    ["s03", "State", "Rheinland-Pfalz", 4159150, 19854.21, "Mainz", "rlp_geom" ],
+    ["s04", "State", "Niedersachsen", 8140242, 47709.82, "Hannover", "niedersachsen_geom" ]
+  ],
+ "description": "This table contains all states in the database"
+}
+, 
+{
+    "title": "list of geometries",
+    "header": ["id", "type", "touches", "url"],
+    "data": [
+       ["nrw_geom", "Geometry", ["hessen_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/nrw.geojson" ],
+       ["hessen_geom", "Geometry",  ["nrw_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/hessen.geojson" ],
+       ["rlp_geom", "Geometry", ["nrw_geom", "hessen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/rheinland-pfalz.geojson"],
+       ["niedersachsen_geom", "Geometry", ["hessen_geom", "nrw_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/niedersachsen.geojson" ]
+     ],
+    "description": "This table contains all geometries in the database their corresponding urls and the adjacent geometries"
+}]

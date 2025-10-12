@@ -1,0 +1,3 @@
+- Geometries of four states as examples
+- Representation of the dataset as a graph
+- Representation of the dataset as a table

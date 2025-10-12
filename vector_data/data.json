@@ -1,0 +1,72 @@
+{
+
+    "states": [{
+        "id": "s01",
+        "type": "State",
+        "name": "Nordrhein-Westfalen",
+        "population": 18139116,
+        "area": 34110.26,
+        "state_capital": "Düsseldorf",
+        "geometry": "nrw_geom"
+        }, 
+        {
+            "id": "s02",
+            "type": "State",
+            "name": "Hessen",
+            "population": 6391360,
+            "area": 21114.94,
+            "state_capital": "Wiesbaden", 
+            "geometry": "hessen_geom"
+        }, 
+        {
+            "id": "s03",
+            "type": "State",
+            "name": "Rheinland-Pfalz",
+            "population": 4159150,
+            "area": 19854.21,
+            "state_capital": "Mainz", 
+            "geometry": "rlp_geom"
+        }, 
+        {
+            "id": "s04",
+            "type": "State",
+            "name": "Niedersachsen",
+            "population": 8140242,
+            "area": 47709.82,
+            "state_capital": "Hannover", 
+            "geometry": "niedersachsen_geom"
+        
+
+        }
+    ], 
+    "geometries":
+    [{
+
+        "id": "nrw_geom", 
+        "type": "Geometry",
+        "url": "https://github.com/aurioldegbelo/GeomQA/blob/main/data/nrw.geojson", 
+        "touches": ["hessen_geom", "rlp_geom", "niedersachsen_geom"]
+
+    }, 
+    {
+        "id": "hessen_geom", 
+        "type": "Geometry",
+        "url": "https://github.com/aurioldegbelo/GeomQA/blob/main/data/hessen.geojson" , 
+        "touches": ["nrw_geom", "rlp_geom", "niedersachsen_geom"]
+
+    }, 
+    {
+        "id": "rlp_geom" , 
+        "type": "Geometry",
+        "url": "https://github.com/aurioldegbelo/GeomQA/blob/main/data/rheinland-pfalz.geojson", 
+        "touches": ["nrw_geom", "hessen_geom"]
+
+
+    },
+    {
+        "id": "niedersachsen_geom", 
+        "type": "Geometry",
+        "url": "https://github.com/aurioldegbelo/GeomQA/blob/main/data/niedersachsen.geojson" , 
+        "touches": ["hessen_geom", "nrw_geom"]
+    }] 
+}
