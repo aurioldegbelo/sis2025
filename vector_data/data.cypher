@@ -6,10 +6,10 @@ CREATE
 (niedersachsen:State {name: 'Niedersachsen', population: 8140242, area: 47709.82, state_capital: 'Hannover'}),
 
 // Entities: Geometries
-(nrw_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/nrw.geojson'}), 
-(hessen_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/hessen.geojson'}), 
-(rlp_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/rheinland-pfalz.geojson'}), 
-(niedersachsen_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/niedersachsen.geojson'}), 
+(nrw_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/nrw.geojson'}), 
+(hessen_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/hessen.geojson'}), 
+(rlp_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/rheinland-pfalz.geojson'}), 
+(niedersachsen_geom:Geometry {url: 'https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/niedersachsen.geojson'}), 
 
 // Relationships State-Geometry
 (nrw) -[:HAS_GEOMETRY]-> (nrw_geom),
