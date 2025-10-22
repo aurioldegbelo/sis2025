@@ -14,10 +14,11 @@
     "title": "list of geometries",
     "header": ["id", "type", "touches", "url"],
     "data": [
-       ["nrw_geom", "Geometry", ["hessen_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/nrw.geojson" ],
-       ["hessen_geom", "Geometry",  ["nrw_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/hessen.geojson" ],
-       ["rlp_geom", "Geometry", ["nrw_geom", "hessen_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/rheinland-pfalz.geojson"],
-       ["niedersachsen_geom", "Geometry", ["hessen_geom", "nrw_geom"], "https://github.com/aurioldegbelo/sis2024/blob/main/vector_data/niedersachsen.geojson" ]
+       ["nrw_geom", "Geometry", ["hessen_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/nrw.geojson" ],
+       ["hessen_geom", "Geometry",  ["nrw_geom", "rlp_geom", "niedersachsen_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/hessen.geojson" ],
+       ["rlp_geom", "Geometry", ["nrw_geom", "hessen_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/rheinland-pfalz.geojson"],
+       ["niedersachsen_geom", "Geometry", ["hessen_geom", "nrw_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/niedersachsen.geojson" ]
      ],
     "description": "This table contains all geometries in the database their corresponding urls and the adjacent geometries"
 }]
+
