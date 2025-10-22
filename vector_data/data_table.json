@@ -19,6 +19,7 @@
        ["rlp_geom", "Geometry", ["nrw_geom", "hessen_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/rheinland-pfalz.geojson"],
        ["niedersachsen_geom", "Geometry", ["hessen_geom", "nrw_geom"], "https://github.com/aurioldegbelo/sis2025/blob/main/vector_data/niedersachsen.geojson" ]
      ],
-    "description": "This table contains all geometries in the database their corresponding urls and the adjacent geometries"
+    "description": "This table contains all geometries in the database, their corresponding urls and the adjacent geometries"
 }]
+
 
